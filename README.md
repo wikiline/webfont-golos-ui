@@ -14,11 +14,17 @@ Package for integrating `Golos UI` fonts in a web environment.
 ## Installation
 
 ___
-This package can be deployed automatically using npm:
+This package can be deployed automatically using NPM:
 
 ```
-$ npm i @wikiline/webfont-golos-ui
+npm install @wikiline/webfont-golos-ui
  ```
+
+or from the GitHub repository:
+
+```
+npm install https://github.com/wikiline/webfont-golos-ui
+```
 
 ## Usage (CSS)
 
