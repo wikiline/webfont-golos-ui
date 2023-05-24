@@ -1,0 +1,9 @@
+# PHPStrom project files
+.idea/
+
+# Visual Studio Code project files
+.vs/
+.vscode/
+
+# Node vendor dir
+/node_modules
