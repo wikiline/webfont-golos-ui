@@ -1,5 +1,9 @@
 # WebFont Golos UI
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/wikiline/webfont-golos-ui?label=GitHub&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/wikiline/webfont-golos-ui/total?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/@wikiline/webfont-golos-ui?style=for-the-badge)
+![npm](https://img.shields.io/npm/dt/@wikiline/webfont-golos-ui?style=for-the-badge)
 ___
 Package for integrating `Golos UI` fonts in a web environment.
 
