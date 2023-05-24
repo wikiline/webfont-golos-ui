@@ -1,10 +1,11 @@
 # WebFont Golos UI
 
+Package for integrating `Golos UI` fonts in a web environment.
+
 ![npm](https://img.shields.io/npm/v/@wikiline/webfont-golos-ui?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dm/@wikiline/webfont-golos-ui?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dt/@wikiline/webfont-golos-ui?style=for-the-badge)
 ___
-Package for integrating `Golos UI` fonts in a web environment.
 
 ## Installation
 
