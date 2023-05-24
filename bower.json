@@ -1,0 +1,45 @@
+{
+  "name": "@wikiline/webfont-golos-ui",
+  "version": "1.0.3",
+  "description": "Package for integrating WebFont Golos UI",
+  "main": [
+    "./all-normal.css",
+    "./all-normal.min.css",
+    "./400-normal.css",
+    "./400-normal.min.css",
+    "./500-normal.css",
+    "./500-normal.min.css",
+    "./700-normal.css",
+    "./700-normal.min.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikiline/webfont-golos-ui.git"
+  },
+  "keywords": [
+    "font",
+    "font-family",
+    "web",
+    "webfont",
+    "typeface",
+    "Golos UI",
+    "golos-ui",
+    "front-end",
+    "css"
+  ],
+  "authors": [
+    {
+      "name": "bu0nq",
+      "email": "hello@bu0nq.ru"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wikiline/webfont-golos-ui",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
