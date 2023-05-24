@@ -1,0 +1,42 @@
+{
+  "name": "@wikiline/webfont-golos-ui",
+  "version": "1.0.0",
+  "description": "Package for integrating WebFont Golos UI",
+  "main": "src/css/golos-ui.css",
+  "files": [
+    "src/css/golos-ui.css",
+    "src/css/golos-ui.min.css",
+    "src/css/golos-ui-400.css",
+    "src/css/golos-ui-400.min.css",
+    "src/css/golos-ui-500.css",
+    "src/css/golos-ui-500.min.css",
+    "src/css/golos-ui-700.css",
+    "src/css/golos-ui-700.min.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikiline/webfont-golos-ui.git"
+  },
+  "keywords": [
+    "font",
+    "webfont",
+    "golos ui"
+  ],
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wikiline/webfont-golos-ui/issues"
+  },
+  "homepage": "https://github.com/wikiline/webfont-golos-ui#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2"
+  }
+}
