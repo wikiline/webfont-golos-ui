@@ -1,17 +1,17 @@
 {
   "name": "@wikiline/webfont-golos-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package for integrating WebFont Golos UI",
-  "main": "src/css/golos-ui.css",
+  "main": "./all-normal.min.css",
   "files": [
-    "src/css/golos-ui.css",
-    "src/css/golos-ui.min.css",
-    "src/css/golos-ui-400.css",
-    "src/css/golos-ui-400.min.css",
-    "src/css/golos-ui-500.css",
-    "src/css/golos-ui-500.min.css",
-    "src/css/golos-ui-700.css",
-    "src/css/golos-ui-700.min.css"
+    "./all-normal.css",
+    "./all-normal.min.css",
+    "./400-normal.css",
+    "./400-normal.min.css",
+    "./500-normal.css",
+    "./500-normal.min.css",
+    "./700-normal.css",
+    "./700-normal.min.css"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,21 +22,25 @@
   },
   "keywords": [
     "font",
+    "font-family",
+    "web",
     "webfont",
-    "golos ui"
+    "typeface",
+    "Golos UI",
+    "golos-ui",
+    "front-end",
+    "css"
   ],
   "author": {
     "name": "bu0nq",
     "email": "hello@bu0nq.ru"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wikiline/webfont-golos-ui/issues"
   },
   "homepage": "https://github.com/wikiline/webfont-golos-ui#readme",
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-cssmin": "^0.1.7",
-    "gulp-rename": "^1.2.2"
+  "publishConfig": {
+    "access": "public"
   }
 }

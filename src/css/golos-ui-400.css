@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'Golos UI';
-    src: local('Golos UI Regular'), local('GolosUI-Regular'), url('../../fonts/golos-ui-400.woff2') format('woff2'), url('../../fonts/golos-ui-400.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: fallback;
-}
