@@ -3,10 +3,10 @@ const rename = require('gulp-rename');
 const cssmin = require('gulp-cssmin');
 
 function minify() {
-    return src('./src/css/*.css')
+    return src('./*.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
-        .pipe(dest('./src/css'));
+        .pipe(dest('./'));
 }
 
 exports.default = series(minify);
