@@ -7,6 +7,10 @@
 ___
 Package for integrating `Golos UI` fonts in a web environment.
 
+* Weights: [400,500,600]
+* Styles: [normal]
+* Supported subsets: [cyrillic-ext, latin-ext]
+
 ## Installation
 
 ___
