@@ -31,19 +31,19 @@ CSS files are located in the `root` directory:
 Font files are located in the `fonts/` directory.
 
 ```css
-@import url("~@wikiline/webfont-golos-ui/all-normal.css");
-@import url("~@wikiline/webfont-golos-ui/all-normal.min.css");
+@import "~@wikiline/webfont-golos-ui/all-normal.css";
+@import "~@wikiline/webfont-golos-ui/all-normal.min.css";
 ```
 
 or
 
 ```css
-@import url("~@wikiline/webfont-golos-ui/400-normal.css");
-@import url("~@wikiline/webfont-golos-ui/400-normal.min.css");
-@import url("~@wikiline/webfont-golos-ui/500-normal.css");
-@import url("~@wikiline/webfont-golos-ui/500-normal.min.css");
-@import url("~@wikiline/webfont-golos-ui/700-normal.css");
-@import url("~@wikiline/webfont-golos-ui/700-normal.min.css");
+@import "~@wikiline/webfont-golos-ui/400-normal.css";
+@import "~@wikiline/webfont-golos-ui/400-normal.min.css";
+@import "~@wikiline/webfont-golos-ui/500-normal.css";
+@import "~@wikiline/webfont-golos-ui/500-normal.min.css";
+@import "~@wikiline/webfont-golos-ui/700-normal.css";
+@import "~@wikiline/webfont-golos-ui/700-normal.min.css";
 ```
 
 ```css
