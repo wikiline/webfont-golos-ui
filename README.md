@@ -52,6 +52,8 @@ body {
 }
 ```
 
+### Variables
+
 Each font uses the following CSS variables to set the font display property with the default `swap` value if CSS
 variables are not defined:
 
