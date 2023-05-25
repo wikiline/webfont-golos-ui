@@ -12,7 +12,7 @@ ___
 This package can be deployed automatically using NPM:
 
 ```
-npm install @wikiline/webfont-golos-ui
+npm i @wikiline/webfont-golos-ui
  ```
 
 ## Usage (CSS)
@@ -65,6 +65,48 @@ variables are not defined:
     --font-display: swap;
     --font-display-golos-ui: swap;
 }
+```
+
+## Usage (SCSS)
+
+SCSS files are located in the `scss` directory:
+
+* `_all-normal.scss` - all files for production environments;
+* `_400-normal.scss` - file for production environments;
+* `_500-normal.scss` - file for production environments;
+* `_700-normal.scss` - file for production environments;
+
+Font files are located in the `fonts/` directory.
+
+```scss
+@import "~@wikiline/webfont-golos-ui/scss/_all-normal";
+```
+
+or
+
+```scss
+@import "~@wikiline/webfont-golos-ui/scss/_400-normal";
+@import "~@wikiline/webfont-golos-ui/scss/_500-normal";
+@import "~@wikiline/webfont-golos-ui/scss/_700-normal";
+```
+
+```scss
+body {
+    font-family: 'Golos UI', sans-serif;
+}
+```
+
+### Variables
+
+Each font uses the following SCSS variables to set the font display property with the default `swap` value if SCSS
+variables are not defined:
+
+* `$font-display` global value applicable to all fonts
+* `$font-display-golos-ui` the value applicable to a specific font
+
+```scss
+$font-display: swap;
+$font-display-golos-ui: swap;
 ```
 
 ## Licensing
