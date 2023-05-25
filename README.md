@@ -79,15 +79,15 @@ SCSS files are located in the `scss` directory:
 Font files are located in the `fonts/` directory.
 
 ```scss
-@import "~@wikiline/webfont-golos-ui/scss/_all-normal";
+@import "~@wikiline/webfont-golos-ui/scss/all-normal";
 ```
 
 or
 
 ```scss
-@import "~@wikiline/webfont-golos-ui/scss/_400-normal";
-@import "~@wikiline/webfont-golos-ui/scss/_500-normal";
-@import "~@wikiline/webfont-golos-ui/scss/_700-normal";
+@import "~@wikiline/webfont-golos-ui/scss/400-normal";
+@import "~@wikiline/webfont-golos-ui/scss/500-normal";
+@import "~@wikiline/webfont-golos-ui/scss/700-normal";
 ```
 
 ```scss
