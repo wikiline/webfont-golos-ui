@@ -1,10 +1,11 @@
 # WebFont Golos UI
 
+Package for integrating `Golos UI` fonts in a web environment.
+
 ![npm](https://img.shields.io/npm/v/@wikiline/webfont-golos-ui?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dm/@wikiline/webfont-golos-ui?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dt/@wikiline/webfont-golos-ui?style=for-the-badge)
 ___
-Package for integrating `Golos UI` fonts in a web environment.
 
 ## Installation
 
@@ -30,24 +31,39 @@ CSS files are located in the `root` directory:
 Font files are located in the `fonts/` directory.
 
 ```css
-@import url("~@wikiline/webfont-golos-ui/all-normal.css");
-@import url("~@wikiline/webfont-golos-ui/all-normal.min.css");
+@import "~@wikiline/webfont-golos-ui/all-normal.css";
+@import "~@wikiline/webfont-golos-ui/all-normal.min.css";
 ```
 
 or
 
 ```css
-@import url("~@wikiline/webfont-golos-ui/400-normal.css");
-@import url("~@wikiline/webfont-golos-ui/400-normal.min.css");
-@import url("~@wikiline/webfont-golos-ui/500-normal.css");
-@import url("~@wikiline/webfont-golos-ui/500-normal.min.css");
-@import url("~@wikiline/webfont-golos-ui/700-normal.css");
-@import url("~@wikiline/webfont-golos-ui/700-normal.min.css");
+@import "~@wikiline/webfont-golos-ui/400-normal.css";
+@import "~@wikiline/webfont-golos-ui/400-normal.min.css";
+@import "~@wikiline/webfont-golos-ui/500-normal.css";
+@import "~@wikiline/webfont-golos-ui/500-normal.min.css";
+@import "~@wikiline/webfont-golos-ui/700-normal.css";
+@import "~@wikiline/webfont-golos-ui/700-normal.min.css";
 ```
 
 ```css
 body {
     font-family: 'Golos UI', sans-serif;
+}
+```
+
+### Variables
+
+Each font uses the following CSS variables to set the font display property with the default `swap` value if CSS
+variables are not defined:
+
+* `--font-display` global value applicable to all fonts
+* `--font-display-golos-ui` the value applicable to a specific font
+
+```css
+:root {
+    --font-display: swap;
+    --font-display-golos-ui: swap;
 }
 ```
 
