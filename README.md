@@ -12,7 +12,7 @@ ___
 This package can be deployed automatically using NPM:
 
 ```
-npm install @wikiline/webfont-golos-ui
+npm i @wikiline/webfont-golos-ui
  ```
 
 ## Usage (CSS)
