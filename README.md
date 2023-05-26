@@ -19,23 +19,27 @@ npm i @wikiline/webfont-golos-ui
 
 CSS files are located in the `root` directory:
 
-* `all-normal.css` - all files without optimization for production environments;
-* `all-normal.min.css` - all files optimized for production environments;
-* `400-normal.css` - file with no optimization for production environments;
-* `400-normal.min.css` - file with optimization for production environments;
-* `500-normal.css` - file with no optimization for production environments;
-* `500-normal.min.css` - file with optimization for production environments;
-* `700-normal.css` - file with no optimization for production environments;
-* `700-normal.min.css` - file with optimization for production environments;
+* `all-normal.css`
+* `all-normal.min.css`
+* `400-normal.css`
+* `400-normal.min.css`
+* `500-normal.css`
+* `500-normal.min.css`
+* `700-normal.css`
+* `700-normal.min.css`
 
 Font files are located in the `fonts/` directory.
+
+### Importing
+
+To import all fonts, you can use:
 
 ```css
 @import "~@wikiline/webfont-golos-ui/all-normal.css";
 @import "~@wikiline/webfont-golos-ui/all-normal.min.css";
 ```
 
-or
+To import specific fonts, you can use:
 
 ```css
 @import "~@wikiline/webfont-golos-ui/400-normal.css";
@@ -71,18 +75,20 @@ variables are not defined:
 
 SCSS files are located in the `scss` directory:
 
-* `_all-normal.scss` - all files for production environments;
-* `_400-normal.scss` - file for production environments;
-* `_500-normal.scss` - file for production environments;
-* `_700-normal.scss` - file for production environments;
+* `all-normal.scss`
+* `400-normal.scss`
+* `500-normal.scss`
+* `700-normal.scss`
 
-Font files are located in the `fonts/` directory.
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+### Importing
 
 ```scss
 @import "~@wikiline/webfont-golos-ui/scss/all-normal";
 ```
 
-or
+To import specific fonts, you can use:
 
 ```scss
 @import "~@wikiline/webfont-golos-ui/scss/400-normal";
