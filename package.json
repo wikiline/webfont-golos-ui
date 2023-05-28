@@ -15,7 +15,8 @@
     "scss/_all-normal.scss",
     "scss/_400-normal.scss",
     "scss/_500-normal.scss",
-    "scss/_700-normal.scss"
+    "scss/_700-normal.scss",
+    "scss/_variables.scss"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
