@@ -4,6 +4,17 @@
   "description": "Package for integrating WebFont Golos UI",
   "main": "all-normal.min.css",
   "files": [
+    "fonts/golos-ui-400.woff",
+    "fonts/golos-ui-400.woff2",
+    "fonts/golos-ui-500.woff",
+    "fonts/golos-ui-500.woff2",
+    "fonts/golos-ui-700.woff",
+    "fonts/golos-ui-700.woff2",
+    "scss/_all-normal.scss",
+    "scss/_400-normal.scss",
+    "scss/_500-normal.scss",
+    "scss/_700-normal.scss",
+    "scss/_variables.scss",
     "all-normal.css",
     "all-normal.min.css",
     "400-normal.css",
@@ -11,12 +22,7 @@
     "500-normal.css",
     "500-normal.min.css",
     "700-normal.css",
-    "700-normal.min.css",
-    "scss/_all-normal.scss",
-    "scss/_400-normal.scss",
-    "scss/_500-normal.scss",
-    "scss/_700-normal.scss",
-    "scss/_variables.scss"
+    "700-normal.min.css"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
