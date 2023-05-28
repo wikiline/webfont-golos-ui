@@ -1,21 +1,21 @@
 {
   "name": "@wikiline/webfont-golos-ui",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Package for integrating WebFont Golos UI",
-  "main": "./all-normal.min.css",
+  "main": "all-normal.min.css",
   "files": [
-    "./all-normal.css",
-    "./all-normal.min.css",
-    "./400-normal.css",
-    "./400-normal.min.css",
-    "./500-normal.css",
-    "./500-normal.min.css",
-    "./700-normal.css",
-    "./700-normal.min.css",
-    "./scss/_all-normal.scss",
-    "./scss/_400-normal.scss",
-    "./scss/_500-normal.scss",
-    "./scss/_700-normal.scss"
+    "all-normal.css",
+    "all-normal.min.css",
+    "400-normal.css",
+    "400-normal.min.css",
+    "500-normal.css",
+    "500-normal.min.css",
+    "700-normal.css",
+    "700-normal.min.css",
+    "scss/_all-normal.scss",
+    "scss/_400-normal.scss",
+    "scss/_500-normal.scss",
+    "scss/_700-normal.scss"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
