@@ -15,6 +15,48 @@ This package can be deployed automatically using NPM:
 npm i @wikiline/webfont-golos-ui
 ```
 
+## Usage (CSS)
+
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+```css
+body {
+    font-family: 'Golos UI', sans-serif;
+}
+```
+
+### Importing
+
+```css
+@import "~@wikiline/webfont-golos-ui/src/css/all.css";
+@import "~@wikiline/webfont-golos-ui/src/css/all-normal.css";
+```
+
+To import specific fonts, you can use:
+
+```scss
+@import "~@wikiline/webfont-golos-ui/src/css/weight-400.css";
+@import "~@wikiline/webfont-golos-ui/src/css/weight-400-normal.css";
+@import "~@wikiline/webfont-golos-ui/src/css/weight-500.css";
+@import "~@wikiline/webfont-golos-ui/src/css/weight-500-normal.css";
+@import "~@wikiline/webfont-golos-ui/src/css/weight-700.css";
+@import "~@wikiline/webfont-golos-ui/src/css/weight-700-normal.css";
+```
+
+Note: Also, each file is presented in a minimized form.
+
+### Variables
+
+Each font uses the following CSS variables to set the font display property with the default `swap` value if CSS
+variables are not defined:
+
+```css
+:root {
+    --font-display: swap;
+    --font-display-golos-ui: swap;
+}
+```
+
 ## Usage (SCSS)
 
 Font files are located in the `fonts/` directory. To import all fonts, you can use:
@@ -28,8 +70,8 @@ body {
 ### Importing
 
 ```scss
-@import "~@wikiline/webfont-golos-ui/src/scss/golos-ui";
-@import "~@wikiline/webfont-golos-ui/src/scss/golos-ui-normal";
+@import "~@wikiline/webfont-golos-ui/src/scss/all";
+@import "~@wikiline/webfont-golos-ui/src/scss/all-normal";
 ```
 
 To import specific fonts, you can use:
