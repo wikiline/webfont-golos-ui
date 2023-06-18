@@ -1,11 +1,11 @@
 {
   "name": "@wikiline/webfont-golos-ui",
-  "version": "1.1.6",
+  "version": "2.0.0",
   "description": "Package for integrating WebFont Golos UI",
-  "main": "all-normal.min.css",
+  "main": "./src/css/all.css",
   "files": [
     "./fonts/*.{woff,woff2}",
-    "./**/*.{css,scss}"
+    "./src/**/*.{css,scss}"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,15 +16,11 @@
   },
   "keywords": [
     "font",
-    "font-family",
-    "web",
-    "webfont",
     "typeface",
-    "golos ui",
-    "golos-ui",
-    "front-end",
-    "css",
-    "scss"
+    "webfont",
+    "woff",
+    "woff2",
+    "golos-ui"
   ],
   "author": {
     "name": "bu0nq",
