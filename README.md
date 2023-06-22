@@ -34,7 +34,7 @@ body {
 
 To import specific fonts, you can use:
 
-```scss
+```css
 @import "~@wikiline/webfont-golos-ui/src/css/weight-400.css";
 @import "~@wikiline/webfont-golos-ui/src/css/weight-400-normal.css";
 @import "~@wikiline/webfont-golos-ui/src/css/weight-500.css";
