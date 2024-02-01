@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Golos UI';
+    src: url('../fonts/golos-ui-400-normal.woff2') format('woff2'), url('../fonts/golos-ui-400-normal.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: var(--font-display-golos-ui, var(--font-display, swap));
+}
+@font-face {
+    font-family: 'Golos UI';
+    src: url('../fonts/golos-ui-500-normal.woff2') format('woff2'), url('../fonts/golos-ui-500-normal.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: var(--font-display-golos-ui, var(--font-display, swap));
+}
+@font-face {
+    font-family: 'Golos UI';
+    src: url('../fonts/golos-ui-700-normal.woff2') format('woff2'), url('../fonts/golos-ui-700-normal.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: var(--font-display-golos-ui, var(--font-display, swap));
+}
