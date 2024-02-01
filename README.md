@@ -21,7 +21,7 @@ Font files are located in the `fonts/` directory. To import all fonts, you can u
 
 ```css
 body {
-    font-family: 'Golos UI', sans-serif;
+  font-family: 'Golos UI', sans-serif;
 }
 ```
 
@@ -34,7 +34,7 @@ body {
 
 To import specific fonts, you can use:
 
-```scss
+```css
 @import "~@wikiline/webfont-golos-ui/src/css/weight-400.css";
 @import "~@wikiline/webfont-golos-ui/src/css/weight-400-normal.css";
 @import "~@wikiline/webfont-golos-ui/src/css/weight-500.css";
@@ -52,9 +52,53 @@ variables are not defined:
 
 ```css
 :root {
-    --font-display: swap;
-    --font-display-golos-ui: swap;
+  --font-display: swap;
+  --font-display-golos-ui: swap;
 }
+```
+
+## Usage (LESS)
+
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+```less
+body {
+  font-family: 'Golos UI', sans-serif;
+}
+```
+
+### Importing
+
+```less
+@import "~@wikiline/webfont-golos-ui/src/less/all";
+@import "~@wikiline/webfont-golos-ui/src/less/all-normal";
+```
+
+To import specific fonts, you can use:
+
+```less
+@import "~@wikiline/webfont-golos-ui/src/less/_weight-400";
+@import "~@wikiline/webfont-golos-ui/src/less/_weight-400-normal";
+@import "~@wikiline/webfont-golos-ui/src/less/_weight-500";
+@import "~@wikiline/webfont-golos-ui/src/less/_weight-500-normal";
+@import "~@wikiline/webfont-golos-ui/src/less/_weight-700";
+@import "~@wikiline/webfont-golos-ui/src/less/_weight-700-normal";
+```
+
+### Variables
+
+Each font uses the following LESS variables to set the font display property with the default `swap` value if SCSS
+variables are not defined:
+
+```less
+@font-display: swap;
+@font-display-golos-ui: swap;
+```
+
+You can declare these variables globally or import them from a file: `_variables.less`.
+
+```less
+@import "~@wikiline/webfont-golos-ui/src/less/config/_variables";
 ```
 
 ## Usage (SCSS)
@@ -63,7 +107,7 @@ Font files are located in the `fonts/` directory. To import all fonts, you can u
 
 ```scss
 body {
-    font-family: 'Golos UI', sans-serif;
+  font-family: 'Golos UI', sans-serif;
 }
 ```
 
