@@ -1,6 +1,6 @@
 {
   "name": "@wikiline/webfont-golos-ui",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Package for integrating WebFont Golos UI",
   "main": "css/all.css",
   "files": [
